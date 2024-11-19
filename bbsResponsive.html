@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>광욱 - bbsResponsive</title>
+  <link rel="stylesheet" href="./css/bbs.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="./js/bbs.js"></script>
+</head>
+
+<body>
+  <!-- .bbs>h2+.tableWrap>.buttons>button.delete(삭제) -->
+  <div class="bbs">
+    <h2>삼성물산 업무 진행 보고</h2>
+    <div class="tableWrap">
+      <div class="buttons">
+        <button class="delete">삭제</button>
+        <button>글쓰기</button>
+      </div>
+      <!-- table -->
+      <table class="table_style">
+        <caption class="blind">삼성물산 업무 진행 보고</caption>
+        <colgroup>
+          <!-- 체크박스 -->
+          <col width="5%">
+          </col>
+          <!-- 번호 -->
+          <col width="10%">
+          </col>
+          <!-- 제목 -->
+          <col width="*">
+          </col>
+          <!-- 진행상황 -->
+          <col width="10%">
+          </col>
+          <!-- 작성자 -->
+          <col width="10%">
+          </col>
+          <!-- 등록일 -->
+          <col width="10%">
+          </col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th><input type="checkbox" class="cBox" id="selectAll"></th>
+            <th>번호</th>
+            <th>제목</th>
+            <th>진행상황</th>
+            <th>작성자</th>
+            <th>등록일</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="checkbox" class="cBox"></td>
+            <td>6</td>
+            <td class="td_subject"><a href="$">건축사업부 각 현장 시스템 점검 진행보고</a></td>
+            <td>완료</td>
+            <td>최진수</td>
+            <td>2024-11-19</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="cBox"></td>
+            <td>5</td>
+            <td class="td_subject"><a href="$">래미안 송도역 센트리폴 10월 분양 홍보영상</a></td>
+            <td>완료</td>
+            <td>장수연</td>
+            <td>2024-11-19</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="cBox"></td>
+            <td>4</td>
+            <td class="td_subject"><a href="$">기업은행 연수원 시공 점검</a></td>
+            <td>진행중</td>
+            <td>김소윤</td>
+            <td>2024-11-19</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="cBox"></td>
+            <td>3</td>
+            <td class="td_subject"><a href="$">부산 광안3 재개발 시공사 선정</a></td>
+            <td>완료</td>
+            <td>이우석</td>
+            <td>2024-11-19</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="cBox"></td>
+            <td>2</td>
+            <td class="td_subject"><a href="$">각 부서 회의록 취합 보고</a></td>
+            <td>완료</td>
+            <td>임상철</td>
+            <td>2024-11-19</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="cBox"></td>
+            <td>1</td>
+            <td class="td_subject"><a href="$">설비 플랜트와 협업 보고</a></td>
+            <td>완료</td>
+            <td>김춘식</td>
+            <td>2024-11-19</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- pagenation -->
+      <ul class="pagenation">
+        <li><a href="#">이전</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">10</a></li>
+        <li><a href="#">다음</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
